@@ -151,3 +151,8 @@ deps/
 !*.sbatch
 **/getData-generic
 **/getData-Line
+
+# Disabled legacy network viewer binaries
+/basilisk/src/bview2D
+/basilisk/src/bview2Dm
+/basilisk/src/bview3D
