@@ -1,5 +1,7 @@
 /* Use offline rendering; network display is not built here. */
 #error "Basilisk network display is disabled in this repository; use offline rendering."
+/* qcc reports the directive above and carries on: this stops the build. */
+char basilisk_network_display_is_disabled[-1];
 #if 0 /* Original vendored implementation retained for provenance. */
 /**
 # Server-side display
